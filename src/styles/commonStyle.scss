@@ -1,0 +1,23 @@
+
+
+//color
+$main-white-color: #f8f9fa;
+$secondary-blue-color: #065c6f;
+$gray-text-color:#858585;
+
+// border
+$border-radius-10: 10px;
+$border-radius-5: 5px;
+$border-bottom: 1px solid #b3b2b2cc;
+
+//box shadow
+$box-shadow: 2px 4px 15px #b3b2b2cc;
+
+// font
+$font-family: 'Hind', sans-serif;
+// $font-family:'Roboto Slab', serif;
+
+@mixin width-height($width, $height) {
+  width: $width;
+  height: $height;
+}

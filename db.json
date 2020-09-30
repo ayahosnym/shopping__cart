@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "numOfUserProduct": 1,
+      "name": "Cool half sleeves t-shirt",
+      "size": "M",
+      "condition": "new",
+      "color": "Mustard",
+      "src": "https://graphicriver.img.customer.envatousercontent.com/files/281692575/t-shirt-mockups-preview-GR-update-01.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=cf8f773ce8cc9f7968bfdf351bac59b6",
+      "price": 30
+    },
+    {
+      "id": 2,
+      "numOfUserProduct": 1,
+      "name": "Long-sleeved t-shirt",
+      "size": "XL",
+      "condition": "new",
+      "color": "Light blue",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQAzFoxQ2TABCrgUpu5jNw4Xi66UDLWjFLKPQ&usqp=CAU",
+      "price": 50
+    }
+  ]
+}

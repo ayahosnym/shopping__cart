@@ -1,0 +1,23 @@
+@import "./../../styles/commonStyle.scss";
+
+nav{
+  border-radius: $border-radius-10;
+}
+nav i { // shopping-cart icon
+  position: relative;
+  color:$secondary-blue-color;
+  span{
+    color: orange;
+  }
+}
+.nav-number-of-products {
+  position: absolute;
+  left: 14px;
+  bottom: 28px;
+  font-size: 16px;
+}
+
+.navbar-brand{
+font-family: $font-family !important;
+font-size: 1.5rem !important;
+}

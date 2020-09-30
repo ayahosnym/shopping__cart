@@ -1,0 +1,41 @@
+@import "./../../styles/commonStyle.scss";
+section {
+  .total-amount-brand{
+    font-family: $font-family;
+    font-size: 1.3em;
+  }
+  //
+  .temporaryamount-shipping {
+    margin-bottom: 2rem;
+    border-bottom: $border-bottom;
+    border-radius: $border-radius-5;
+    span {
+      color: $gray-text-color;
+      font-weight: bold;
+    }
+    i {
+      font-style: normal;
+    }
+  }
+  //
+  p {
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  //
+  .final-total-price {
+    margin-bottom: 5rem;
+    span {
+      color: $gray-text-color;
+      font-weight: bold;
+    }
+  p> span:nth-child(2){
+      color:#007bff;
+  }
+  }
+  button {
+    font-weight: bold;
+    width: 100%;
+  }
+}

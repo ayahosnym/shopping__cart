@@ -1,0 +1,52 @@
+@import "./../../styles/commonStyle.scss";
+
+div.product:first-child {
+  margin-bottom: 1rem;
+}
+.product-name {
+  font-weight: bold;
+  color: #333333;
+  font-family: $font-family;
+  font-size: 1.3em;
+}
+div.product:first-child > div:nth-child(1) {
+  border-bottom: $border-bottom;
+  border-radius: $border-radius-5;
+  padding: 1rem 0;
+}
+
+.product-description span {
+  display: block;
+  margin: 1rem 0;
+  color: $gray-text-color;
+  i {
+    font-weight: bold;
+    font-style: normal;
+  }
+}
+.add-remove-product {
+  border-radius: $border-radius-5;
+  box-shadow: $box-shadow;
+  text-align: center;
+  @include width-height(105px, 30px);
+}
+
+div.media img {
+  padding: 10px;
+  border: 1px solid #c4c4c438;
+}
+
+.plus,
+.minus {
+  cursor: pointer;
+}
+
+.single-product-price {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  span {
+    position: absolute;
+    bottom: 10px;
+  }
+}

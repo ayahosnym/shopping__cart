@@ -1,0 +1,21 @@
+@import "./../../styles/commonStyle.scss";
+
+.all-products-section,
+.total-amount-section {
+  box-shadow: $box-shadow;
+  padding: 1.5rem;
+  background-color: $main-white-color;
+  border-radius: $border-radius-10;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column !important;
+    align-items: center;
+  }
+}
+@media (max-width: 892px) {
+  .all-products-section {
+    margin-bottom: 4rem !important;
+  }
+}
